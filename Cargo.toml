@@ -84,3 +84,6 @@ codegen-units = 1
 panic = "abort"
 strip = true
 opt-level = "z"
+
+[profile.dev.package."*"]
+debug = false
